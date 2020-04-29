@@ -75,3 +75,8 @@ export default {
 }
 ```
 这样我们每次保存时，prettier会自动帮助我们对该文件进行格式化，免去了手动按快捷键的操作，至此Prettier简单的应用就完成了，从上面我们可以看到我们仅配置了一点设置，并没有大篇幅的设置很多，这就是Perttier同Spring Boot一样，是Opinionated的，无需过多配置
+
+#### webstorm中如何进行prettier, 
+1. 首先我们需要在插件中心安装Perttier插件，
+2. 然后在Perttier的配置选项中，选择node_modules下安装的Perttier模块，或者直接选择全局安装的Perttier模块，即可通过快捷键进行格式化
+3. 如果希望实现保存就自动格式化，需要通过file watch来实现该功能
