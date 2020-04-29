@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" name="atom" age="12" adress="sfsdfsdfsdfsdfsdf" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      arr: [
+        { label: 'label', value: 'value' },
+        { label: 'label', value: 'value' },
+        { label: 'label', value: 'value' },
+        { label: 'label', value: 'value' },
+        { label: 'label', value: 'value' },
+        { label: 'label', value: 'value' },
+        { label: 'label', value: 'value' }
+      ]
+    }
+  },
+  methods: {
+    getInfo() {
+      return this.arr.map(item => (item.value = item.label += item.value))
+    }
   }
 }
 </script>

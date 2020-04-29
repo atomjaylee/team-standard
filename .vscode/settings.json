@@ -1,0 +1,19 @@
+{
+  // Use the project's typescript version
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+
+  // Use prettier to format typescript, javascript and JSON _vue,files
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
