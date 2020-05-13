@@ -1,4 +1,4 @@
-![](./images/prettier.png)
+![](./images/prettier.jpg)
 
 ## prettier使用
 
