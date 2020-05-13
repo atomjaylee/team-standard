@@ -14,6 +14,6 @@ git push -u origin master
 #创建dev分支
 git branch dev
 #切换到dev分支
-git checkout dev
+`git checkout dev`
 ```
 
