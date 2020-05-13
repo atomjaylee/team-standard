@@ -1,4 +1,4 @@
-![git-logo](./images/git-logo.png)
+![](./images/git-logo.png)
 
 
 
@@ -65,7 +65,7 @@ git reflog
 - 分支命名: hotfix/ 开头的为修复分支，命名规则和 feature 相同
 - 线上出现紧急问题时，需要及时修复，以master分支为基线，创建hotfix分支，修复完成后，需要合并到master分支和develop分支
 
-![git-branch](./images/git-branch.png)
+![](./images/git-branch.png)
 
 ### **日志规范**
 
